@@ -1,0 +1,64 @@
+
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    color: #222;
+}
+.navbar {
+    padding: .8rem;
+}
+.navbar-brand img {
+    height: 2rem;
+}
+.navbar-nav li {
+    padding-right: 1.1 rem;
+}
+.nav-link {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.nav-link:hover,
+.nav-link.active {
+    border-bottom: .1rem solid #000000
+}
+
+.carousel-inner img {
+    width: 100%;
+}
+.carousel-caption {
+   position: absolute;
+   transform: translateY(-50%);
+   top: 47%
+}
+.carousel-caption h1 {
+    font-size: 4.5rem;
+    text-transform: uppercase;
+    text-shadow: .1rem .1rem 1rem black;
+}
+.carousel-caption h3 {
+    font-size: 3rem;
+    text-shadow: .1rem .1rem .6rem black;
+    padding-bottom: 1rem;
+}
+.btn {
+    font-weight: 500;
+    border-width: medium;
+}
+
+.jumbotron {
+    padding: 1rem;
+    border-radius: 0;
+}
+
+@media (max-width: 991px) {
+
+}
+
+@media (max-width: 767px) {
+
+}
+@media (max-width: 575px) {
+
+}
